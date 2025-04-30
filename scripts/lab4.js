@@ -31,7 +31,7 @@ function discountPrices(prices, discount) {
     const length = prices.length;
     let discountedPrice = 0
     //check if array is empty or if it is even an array
-    if (length==0 || Array.isArray(price)==false){
+    if (length==0 || Array.isArray(prices)==false){
         return false;
     }
     //make sure discount is a number
