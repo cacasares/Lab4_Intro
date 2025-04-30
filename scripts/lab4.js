@@ -13,7 +13,6 @@ function sumValues(num1, num2, add) {
         let result = 0;
 
         result = num1 + num2;
-
         return result;
     }
     else {
