@@ -6,6 +6,7 @@
  * @returns The sum of the two numbers if add is true and false otherwise.
  */
 function sumValues(num1, num2, add) {
+    //check if numbers
     if(Number.isInteger(num1)==false || Number.isInteger(num2)==false){
         return false;
     }
@@ -16,6 +17,7 @@ function sumValues(num1, num2, add) {
         return result;
     }
     else {
+        //fix return value for other cases
         return false;
     }
 }
